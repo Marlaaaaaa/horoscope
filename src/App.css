@@ -1,0 +1,241 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/Background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.pt-20{
+  padding-top: 25px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.center-y {
+  align-items: center;
+  padding-right: 40px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Big {
+  margin-top: 10px;
+  width: 290px;
+  height: 20px;
+  /* left: 36px; */
+  /* top: 5px; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+
+  text-transform: uppercase;
+
+  color: #9499c3;
+}
+.Small {
+  width: 46px;
+  height: 14px;
+  margin-top: 15px;
+  /* left: 36px; */
+  /* top: 29px; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  color: rgba(148, 153, 195, 0.5);
+}
+
+.icons {
+  margin-top: 10px;
+  margin-left: 32px;
+}
+.buttons {
+  margin-top: 115px;
+  margin-left: 25px;
+}
+.button-blue {
+  width: 114px;
+  height: 56px;
+
+
+  background: rgba(26, 28, 72, 0.01);
+  border: 1.5px solid rgba(148, 153, 195, 0.5);
+  
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 143px;
+  margin-left: 12px;
+}
+
+.button-white {
+  width: 134px;
+  height: 72px;
+
+
+  background: #ffffff;
+  box-shadow: 0px 2px 56px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1a1c48;
+}
+
+.hrc {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+
+  color: #9499c3;
+}
+.left {
+  height: 100%;
+  margin-top: 70px;
+}
+.sign {
+  font-weight: bold;
+  color: #9499c3;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.hi {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.date {
+  font-weight: bold;
+  color: #9499c3;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.signs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  width: 250px;
+  height: 66px;
+  left: 0px;
+  margin-top: 20px;
+
+  background: #f5f4fb;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+}
+.sigh{
+  display: flex;
+  flex-direction: row;
+}
+.square{
+width: 290px;
+height: 250px;
+}
+.container{
+  width: 190px;
+height: 190px;
+background: rgba(255, 255, 255, 0.02);
+border-radius: 10px;
+}
+
+.ellipse{
+  width: 180px;
+height: 180px;
+
+border: 1px dashed #F3F4F9;
+box-sizing: border-box;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+
+.color{
+  
+  width: 153px;
+  height: 49px;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 100%;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.blue{
+  width: 141px;
+  height: 54px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 100%;
+text-align: center;
+}
+
+.sigh-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.description{
+  font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 100%;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.inrow{
+  width:96px; 
+  height:23px;
+  background-image: url("./icons/vsAroow.png");
+}
